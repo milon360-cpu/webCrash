@@ -1,0 +1,25 @@
+body
+{
+padding-left: 70px;
+padding-top: 60px;
+}
+*{
+    box-sizing: border-box;
+}
+.buttonStyle
+{
+    background-color: green;
+    box-shadow: 3px 3px 5px gray;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.buttonStyle:focus
+{
+    border: none;
+}
