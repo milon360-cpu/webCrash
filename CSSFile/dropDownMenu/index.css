@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    display: flex;
+    background-color: teal;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(253, 253, 253);
+    padding: 10px 35px;
+    font-weight: bold;
+}
+
+.container a:hover {
+    color: rgb(3, 0, 0);
+    font-weight: 900px;
+    /* background-color: rgb(12, 7, 7); */
+    border-radius: 10px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdownContainer:hover .dropdown {
+    margin-top: 10px;
+    position: fixed;
+    display: block;
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: column;
+    background-color: teal;
+    border-radius: 10px;
+}

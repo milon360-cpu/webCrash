@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>oneClick</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            width: 600px;
+            background-color: rgb(56, 125, 185);
+            margin: 0pc auto;
+            border-radius: 20px;
+        }
+        
+        #Button {
+            padding: 15px;
+            font-size: 28px;
+            border-radius: 10px;
+            background-color: teal;
+            color: white;
+            outline: none;
+            border: 3px solid rgb(233, 227, 227);
+            cursor: pointer;
+        }
+        
+        #Button:active {
+            border: none;
+        }
+        
+        #Button:hover {
+            box-shadow: 3px 3px 10px gray;
+            transition: background-color 2ms ease-in-out 2ms;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button id="Button" onclick="Alart()"><i class="far fa-address-card"></i></i></button>
+    </div>
+
+
+    <script src="oneClick.js"></script>
+</body>
+
+</html>
