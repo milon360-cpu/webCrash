@@ -10,16 +10,28 @@ padding-top: 60px;
 {
     background-color: green;
     box-shadow: 3px 3px 5px gray;
-    color: white;
-    height: 30px;
-    width: 80px;
-    border-radius: 10px;
+    color: white!important;
+    border-radius: 60px!important;
     border: none;
     outline: none;
     cursor: pointer;
     font-weight: bold;
+   
+   
 }
 .buttonStyle:focus
 {
     border: none;
+}
+.button
+{
+    height: 65px;
+    width: 100px;
+    /* background-color: gray; */
+    color: rgb(59, 24, 24);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    outline: none;
 }
