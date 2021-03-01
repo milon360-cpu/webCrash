@@ -13,6 +13,9 @@ body{
     justify-content: center;
     text-align: center;
 }
+.header h1{
+    color: rgb(39, 28, 28);
+}
 .Navbar
 {
     background-color: rgb(16, 159, 172);
