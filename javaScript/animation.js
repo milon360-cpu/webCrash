@@ -9,6 +9,5 @@ for(let i=0; i<3; i++)
      {
          btn.classList.remove("buttonStyle");
      },200);
-
     });
 }
