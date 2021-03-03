@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+  padding: 0px;
+  margin: 0px;
+}
+.myDiv
+{
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+    margin: 0px auto;
+    /* transform: scale(1.6); */
+    margin-top: 15%;
+    transition: 3s;
+   
+}
+.myDiv:hover{
+    /* transform: rotate(250deg); */
+    /* transform: skew(-45deg); */
+    /* transform: translate(150px,250px); */
+    transform: scale(2.5) rotate(360deg);
+
+}
