@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+.myDiv
+{
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+    margin: 0px auto;
+    margin-top: 5%;
+    /* transition-property:background-color transform ;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in; */
+    transition: background-color 2s, transform 2s, color 2s;
+    transition-delay: 1s;
+   
+}
+.myDiv:hover
+{
+    /* width: 300px; */
+    background-color: green;
+    transform: scale(1.5);
+    color: white;
+    
+}
