@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.Container
+{
+    background-color: rgba(82, 79, 79, 0.863);
+    width: 500px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.Container > ul>li{
+  
+    list-style: none;
+    margin: 50px 0px;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+    font-size: 22px;
+    color: white;
+}
+.Container > ul>li::before
+{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color: rgba(191, 238, 218, 0.712);
+    width: 100%;
+    height: 25px;
+    border-radius: 100px;
+}
+.Container > ul>li::after
+{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color: rgb(17, 110, 5);
+    width: 0%;
+    height: 25px;
+    border-radius: 100px;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+/* html  */
+.Container > ul>li.html::after
+{
+    animation-name: html;
+}
+@keyframes html
+{
+to 
+{
+ width: 90%;
+ background-color: rgb(25, 143, 143);
+}
+}
+
+/* css */
+.Container > ul>li.css::after
+{
+    animation-name: css;
+}
+@keyframes css
+{
+to 
+{
+ width: 80%;
+ background-color: rgb(16, 128, 128);
+}
+}
+
+/* Java */
+.Container > ul>li.java::after
+{
+    animation-name: java;
+}
+@keyframes java
+{
+to 
+{
+ width: 70%;
+ background-color: rgb(9, 156, 132);
+}
+}
+
+.Container > ul>li.python::after
+{
+    animation-name: python;
+}
+@keyframes python
+{
+to 
+{
+ width: 90%;
+ background-color: rgb(10, 85, 170);
+}
+}
